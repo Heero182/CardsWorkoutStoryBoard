@@ -11,13 +11,12 @@ class CardSelectionVC: UIViewController {
     
     @IBOutlet var cardImageView: UIImageView!
     
-    let cards: [UIImage] = Deck.allValues
+    let cards: [UIImage] = Cards.allCards
     
     var timer: Timer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hello there")
         startTimer()
         
     }
@@ -28,6 +27,7 @@ class CardSelectionVC: UIViewController {
     }
     
     @objc func showRandomImage(){
+//        cardImageView.image = UIImage(named: "AS")
         cardImageView.image = cards.randomElement() ?? UIImage(named: "AS")
     }
     
