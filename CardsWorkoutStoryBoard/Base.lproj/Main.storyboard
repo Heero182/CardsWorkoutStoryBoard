@@ -16,48 +16,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i9u-SX-auk">
-                                <rect key="frame" x="82" y="193" width="250" height="360"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10S" translatesAutoresizingMaskIntoConstraints="NO" id="7u5-WX-uzT">
+                                <rect key="frame" x="82" y="198" width="250" height="350"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="360" id="mOe-fp-L63"/>
-                                    <constraint firstAttribute="width" constant="250" id="oal-Nq-9fq"/>
+                                    <constraint firstAttribute="height" constant="350" id="AKM-Ex-5Ir"/>
+                                    <constraint firstAttribute="width" constant="250" id="Key-gD-Qaq"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4h6-Sf-6PX">
-                                <rect key="frame" x="30" y="583" width="354" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2m-YF-jMh">
+                                <rect key="frame" x="77" y="608" width="260" height="50"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="df4-wG-nyH"/>
+                                    <constraint firstAttribute="height" constant="50" id="4W2-YF-P9J"/>
+                                    <constraint firstAttribute="width" constant="260" id="QRa-eL-qXn"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Stop!">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnl-0Z-oiw">
-                                <rect key="frame" x="30" y="653" width="165" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JY0-8V-ov3">
+                                <rect key="frame" x="77" y="678" width="115" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="WCQ-Re-jJZ"/>
-                                    <constraint firstAttribute="width" constant="165" id="ZJn-FC-lJX"/>
+                                    <constraint firstAttribute="height" constant="50" id="AgB-Ti-nhA"/>
+                                    <constraint firstAttribute="width" constant="115" id="jFJ-HN-N2h"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Restart">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tnl-ac-O9j">
-                                <rect key="frame" x="219" y="653" width="165" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZ4-ar-XL5">
+                                <rect key="frame" x="222" y="678" width="115" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="UyG-ah-KEN"/>
-                                    <constraint firstAttribute="width" constant="165" id="mMa-Cd-Tte"/>
+                                    <constraint firstAttribute="height" constant="50" id="O8p-Sb-N81"/>
+                                    <constraint firstAttribute="width" constant="115" id="nIE-uE-NFe"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Rules">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
@@ -65,15 +66,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qnl-0Z-oiw" firstAttribute="leading" secondItem="4h6-Sf-6PX" secondAttribute="leading" id="12B-W0-kon"/>
-                            <constraint firstItem="i9u-SX-auk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1JY-aT-SKh"/>
-                            <constraint firstItem="i9u-SX-auk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-75" id="JDZ-ao-GVu"/>
-                            <constraint firstItem="4h6-Sf-6PX" firstAttribute="top" secondItem="i9u-SX-auk" secondAttribute="bottom" constant="30" id="JOe-BN-Po6"/>
-                            <constraint firstItem="Tnl-ac-O9j" firstAttribute="trailing" secondItem="4h6-Sf-6PX" secondAttribute="trailing" id="eiF-hb-jCH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4h6-Sf-6PX" secondAttribute="trailing" constant="30" id="fKa-Xs-zEV"/>
-                            <constraint firstItem="4h6-Sf-6PX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="kbg-fS-8oq"/>
-                            <constraint firstItem="qnl-0Z-oiw" firstAttribute="top" secondItem="4h6-Sf-6PX" secondAttribute="bottom" constant="20" id="n68-Ob-QJh"/>
-                            <constraint firstItem="Tnl-ac-O9j" firstAttribute="centerY" secondItem="qnl-0Z-oiw" secondAttribute="centerY" id="qlZ-Nd-FpS"/>
+                            <constraint firstItem="7u5-WX-uzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FZ7-WM-whi"/>
+                            <constraint firstItem="7u5-WX-uzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-75" id="GkE-yd-NfI"/>
+                            <constraint firstItem="U2m-YF-jMh" firstAttribute="top" secondItem="7u5-WX-uzT" secondAttribute="bottom" constant="60" id="JSO-jl-FUb"/>
+                            <constraint firstItem="JY0-8V-ov3" firstAttribute="top" secondItem="U2m-YF-jMh" secondAttribute="bottom" constant="20" id="Lun-Zh-9fr"/>
+                            <constraint firstItem="JY0-8V-ov3" firstAttribute="leading" secondItem="U2m-YF-jMh" secondAttribute="leading" id="OeN-lD-oan"/>
+                            <constraint firstItem="jZ4-ar-XL5" firstAttribute="centerY" secondItem="JY0-8V-ov3" secondAttribute="centerY" id="bxa-vg-pRa"/>
+                            <constraint firstItem="jZ4-ar-XL5" firstAttribute="trailing" secondItem="U2m-YF-jMh" secondAttribute="trailing" id="f5c-cO-SZZ"/>
+                            <constraint firstItem="U2m-YF-jMh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="psC-fX-BSi"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -83,6 +83,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="10S" width="691" height="1056"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
